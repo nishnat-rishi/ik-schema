@@ -1,0 +1,3 @@
+I was initially separating the 'path' from the 'name'. No justification, it just felt right. But I could not reasonably justify it when I encountered the problem of 'root'. The 'root' folder does not have a path. It just has the name '/', which makes the path field have the type 'String | undefined', which becomes a pain to deal with subsequently. Given the questions, there was no reason for me to divide the path and name, as such I combined them back into a single 'name' field.
+
+It would be nice to have a 'sort' which is actually a general function one can use with any given comparator.

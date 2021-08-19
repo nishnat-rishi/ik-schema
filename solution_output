@@ -1,0 +1,75 @@
+2a
+----------------------------------------------------
+Folder Collection:
+---------------
+1       /
+2       /Folder1/
+3       /Folder2/
+4       /Folder2/SubFolder1/
+5       /Folder2/SubFolder2/
+6       /Folder1/AnotherFolder/
+
+File Collection:
+---------------
+1       File1   (/Folder1/File1.png)
+2       File2   (/Folder1/File2.png)
+3       File3   (/Folder2/SubFolder2/File3.jpg)
+4       File4   (/Folder2/SubFolder2/File4.txt)
+5       File5   (/Folder1/AnotherFolder/File5.jpg)
+
+2b
+----------------------------------------------------
+Reversed File Collection:
+---------------
+1       File5   (/Folder1/AnotherFolder/File5.jpg)
+2       File4   (/Folder2/SubFolder2/File4.txt)
+3       File3   (/Folder2/SubFolder2/File3.jpg)
+4       File2   (/Folder1/File2.png)
+5       File1   (/Folder1/File1.png)
+
+2c
+----------------------------------------------------
+Total size of /Folder1/: 28582 kbytes.
+
+Folder Details (/Folder1/):
+---------------
+1       File1.png       16384 kbytes
+2       File2.png       12198 kbytes
+
+2d
+----------------------------------------------------
+Folder Collection:
+---------------
+1       /
+2       /Folder2/
+3       /Folder2/SubFolder1/
+4       /Folder2/SubFolder2/
+
+File Collection:
+---------------
+1       File3   (/Folder2/SubFolder2/File3.jpg)
+2       File4   (/Folder2/SubFolder2/File4.txt)
+
+2e & 2f
+----------------------------------------------------
+Search results:
+---------------
+1       File3   (/Folder2/SubFolder2/File3.jpg)
+
+Search results:
+---------------
+1       File3   (/Folder2/SubFolder2/File3.jpg)
+
+2g
+----------------------------------------------------
+Folder Collection:
+---------------
+1       /
+2       /Folder2/
+3       /Folder2/SubFolder1/
+4       /Folder2/NestedFolder2/
+
+File Collection:
+---------------
+1       File3   (/Folder2/NestedFolder2/File3.jpg)
+2       File4   (/Folder2/NestedFolder2/File4.txt)
