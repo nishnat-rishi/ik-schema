@@ -1,6 +1,6 @@
 ## Schema
 
-Following is a rudimentary image of the designed schema (also present in `/assets/Schema.jpg`).
+Following is a rudimentary image of the designed schema.
 
 <img src="https://i.imgur.com/eT44776.jpg" alt="Schema.jpg" width="700"/>
 
