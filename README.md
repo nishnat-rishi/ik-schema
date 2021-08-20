@@ -2,7 +2,7 @@
 
 Following is a rudimentary image of the designed schema (also present in `/assets/Schema.jpg`).
 
-<img src="https://i.imgur.com/FuVGLIU.jpg" alt="Schema.jpg" width="700"/>
+<img src="https://i.imgur.com/uPKHonG.jpg" alt="Schema.jpg" width="700"/>
 
 (Here's a link to the constantly updating version of the same: https://docs.google.com/drawings/d/1iAEuxUk5OZGAiar71Z2P7BNr40fi0QpcwQTIN3S6sFo/edit?usp=sharing)
 
