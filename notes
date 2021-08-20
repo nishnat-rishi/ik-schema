@@ -1,3 +1,9 @@
 I was initially separating the 'path' from the 'name'. No justification, it just felt right. But I could not reasonably justify it when I encountered the problem of 'root'. The 'root' folder does not have a path. It just has the name '/', which makes the path field have the type 'String | undefined', which becomes a pain to deal with subsequently. Given the questions, there was no reason for me to divide the path and name, as such I combined them back into a single 'name' field.
 
 It would be nice to have a 'sort' which is actually a general function one can use with any given comparator.
+
+One OBVIOUS improvement to the way folders are renamed is to have a reference to one's parent folder. This is basically in contradiction to the first point I have raised here. If we use the 'path' + 'name' system, with path being a pointer / id to the folder which is our parent, it would make renaming folders super cheap. You only need to rename the exact folder which needs renaming, and the rest of the subfolders would not need to care. Then again, it would make the full path resolution a bit more costly since we're following the parent trail to the root of the folder every time we want the entire path. So it's a give and take scenario.
+
+Thinking about the above point, I think one resolves the full path of a folder more often than they rename things. So it makes perfect sense to just have the system we have now, of a combind 'path' + 'name', instead of separated.
+
+Another variation of this system is to have an array of children folder_ids associated with each folder. This allows for the recursive systems to be a little less hacky. One just needs to go through all the folder_ids which are present in this array, instead of going through ALL folders every time, trying to determine whether it's a subfolder via pattern matching.
