@@ -6,7 +6,7 @@ Following is a rudimentary image of the designed schema (also present in `/asset
 
 (Here's a link to the constantly updating version of the same: https://docs.google.com/drawings/d/1iAEuxUk5OZGAiar71Z2P7BNr40fi0QpcwQTIN3S6sFo/edit?usp=sharing)
 
-Following is the code which ultimately performs all the given tasks. All the internals are present in 'main.lua'. Good engineering practices have been somewhat sacrificed in the project in service of speed of prototyping.
+Following is the code which ultimately performs all the given tasks. All the internals are present in ```/main.lua```. Good engineering practices have been somewhat sacrificed in the project in service of speed of prototyping.
 
 ```lua
 --- ANSWERS
